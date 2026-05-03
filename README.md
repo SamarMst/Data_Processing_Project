@@ -11,7 +11,7 @@ Collected over 5,000 Arabic text samples through web scraping using Python
 Data includes:
 Citations
 Poems
-Paragraphs related to ethics and behavior
+Paragraphs related to ethics and behavior<br><br>
 ⚙️ Methodology
 
 The project follows a complete NLP pipeline:
