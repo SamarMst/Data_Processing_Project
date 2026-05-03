@@ -2,32 +2,45 @@
 ## 1.Definition of the problem and project context
 This project is a Natural Language Processing (NLP) application focused on analyzing and classifying Arabic text related to human behavior and manners.
 
-🧠 Problem Definition & Context
+### 🧠 Problem Definition & Context
+This project is a Natural Language Processing (NLP) application focused on analyzing and classifying Arabic text related to human behavior and manners.
 
-Understanding and categorizing human values and behaviors expressed in text is a challenging task, especially in Arabic due to its linguistic complexity. This project aims to automatically classify textual content—such as citations, poems, and short paragraphs—based on whether they represent positive (good) manners or negative (bad) manners.
+Understanding and categorizing human values and behaviors expressed in text is a challenging task, especially in Arabic due to its linguistic complexity. This project aims to automatically classify textual content—such as citations, poems, and short paragraphs—based on whether they represent **positive (good) manners** or **negative (bad) manners**.
 
-📊 Dataset
-Collected over 5,000 Arabic text samples through web scraping using Python
-Data includes:
-Citations
-Poems
-Paragraphs related to ethics and behavior<br><br>
-⚙️ Methodology
+---
 
-The project follows a complete NLP pipeline:
+### 📊 Dataset
+- Collected over **5,000 Arabic text samples** through web scraping using Python  
+- Data includes:
+  - Citations  
+  - Poems  
+  - Paragraphs related to ethics and behavior  
 
-Web Scraping
-Automated data collection from multiple online sources
-Data Preprocessing
-Text cleaning (removal of noise, punctuation, etc.)
-Normalization of Arabic text
-Feature Engineering
-Named Entity Recognition (NER)
-Stemming for Arabic words
-Model Development
-Trained a Machine Learning model to classify text into:
-✅ Good manners
-❌ Bad manners
+---
+
+### ⚙️ Methodology
+
+#### 1. Web Scraping
+- Automated data collection from multiple online sources  
+
+#### 2. Data Preprocessing
+- Text cleaning (removal of noise, punctuation, etc.)
+- Normalization of Arabic text  
+
+#### 3. Feature Engineering
+- Named Entity Recognition (NER)  
+- Stemming for Arabic words  
+
+#### 4. Model Development
+- Trained a Machine Learning model to classify text into:
+  - ✅ Good manners  
+  - ❌ Bad manners  
+
+---
+
+### 🚀 Results
+The final model is capable of analyzing Arabic textual input and predicting the type of behavior it represents.
+
 ## 2.Selection and collection of data
 ### Prerequisites
 Before starting this project, ensure you have the following software and libraries installed:
